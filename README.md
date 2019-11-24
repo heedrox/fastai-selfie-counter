@@ -30,3 +30,16 @@ uvicorn index:app
 Usage: http://127.0.0.1:8000/classify-url?url=(encoded-url)
 
 # Google Cloud Platform
+
+Thanks to:
+- https://forums.fast.ai/t/productionizing-models-thread/28353/124
+- https://forums.fast.ai/t/attributeerror-relu-object-has-no-attribute-threshold/50489
+
+Deploy google cloud function:
+
+If you have the default project ready:
+```
+gcloud config set gcloudignore/enabled true
+gcloud functions deploy classify --runtime python37 --trigger-http
+```
+

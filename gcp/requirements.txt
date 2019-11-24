@@ -1,0 +1,4 @@
+google-cloud-storage
+https://download.pytorch.org/whl/cpu/torch-1.1.0-cp37-cp37m-linux_x86_64.whl
+fastai==1.0.59
+aiohttp
