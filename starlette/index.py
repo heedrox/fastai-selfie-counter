@@ -4,7 +4,7 @@ from starlette.routing import Route
 from fastai.vision import *
 import aiohttp
 
-path = Path('./work-folder')
+path = Path('../fastai-model')
 learner = load_learner(path)
 
 
